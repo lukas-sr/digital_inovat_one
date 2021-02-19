@@ -1,0 +1,20 @@
+Permissões em arquivos e diretórios servem para restringir acessos como leitura, escrita e execução:
+
+r = read
+w = write
+x = execution
+
+Ex: 
+-rw-rw-r--  =  arquivo com permissao de rw- para dono(owner), rw- para grupo (group) e r-- para outros (others)
+drwxr-x--x  =  diretorio com permissao de rwx para dono(owner), r-x para quem esta no grupo(group) e --x para quem está fora dos grupos(others)
+
+Para CHMOD:
+base 8 (de 0 a 7) onde:
+- primeiro digito representa o dono do ficheiro/diretório (u)
+- segundo digito representa o grupo (g)
+- terceiro digito representa os outros (o)
+
+temos valores diferentes para r, w e x:
+- r = 4
+- w = 2
+- x = 1

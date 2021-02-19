@@ -1,0 +1,69 @@
+192.168.56.1 192.168.0.69 2804:14c:485:718d:ad0f:9fba:619f:c944 2804:14c:485:718d::1008 2804:14c:485:718d:81f0:bb87:c52d:75b1 2804:14c:485:718d:a09e:f191:1a8d:3b7d 
+127.0.1.1
+
+% Copyright (c) Nic.br
+%  The use of the data below is only permitted as described in
+%  full by the terms of use at https://registro.br/termo/en.html ,
+%  being prohibited its distribution, commercialization or
+%  reproduction, in particular, to use it for advertising or
+%  any similar purpose.
+%  2021-02-03T20:05:59-03:00 - IP: 2804:14c:485:718d:81f0:bb87:c52d:75b1
+
+domain:      pudim.com.br
+owner:       ALICE FANNY RIFF - FILMAGENS - ME
+ownerid:     10.551.469/0001-72
+responsible: Alice Fanny Riff
+country:     BR
+owner-c:     ALHRI5
+tech-c:      ALHRI5
+nserver:     d.sec.dns.br
+nsstat:      20210202 AA
+nslastaa:    20210202
+nserver:     f.sec.dns.br
+nsstat:      20210202 AA
+nslastaa:    20210202
+dsrecord:    32871 ECDSASHA256 FEB755069882617AD3AD6D9D11D3D31698A8F6C8C03A38F1B85D49292BF2984B
+dsstatus:    20210202 DSOK
+dslastok:    20210202
+created:     20000224 #270644
+changed:     20201007
+expires:     20280224
+status:      published
+
+nic-hdl-br:  ALHRI5
+person:      alberto henry riff
+e-mail:      ahriff@hotmail.com
+country:     BR
+created:     20110223
+changed:     20191030
+
+% Security and mail abuse issues should also be addressed to
+% cert.br, http://www.cert.br/ , respectivelly to cert@cert.br
+% and mail-abuse@cert.br
+%
+% whois.registro.br accepts only direct match queries. Types
+% of queries are: domain (.br), registrant (tax ID), ticket,
+% provider, CIDR block, IP and ASN.
+DNS do site www.pudim.com.br 
+
+; <<>> DiG 9.11.3-1ubuntu1.13-Ubuntu <<>> www.pudim.com.br
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52049
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: e44bbab97538068266ea6376601b450cf3919d266e1297ae (good)
+;; QUESTION SECTION:
+;www.pudim.com.br.		IN	A
+
+;; ANSWER SECTION:
+www.pudim.com.br.	3428	IN	CNAME	pudim.com.br.
+pudim.com.br.		3428	IN	A	54.207.20.104
+
+;; Query time: 11 msec
+;; SERVER: 181.213.132.2#53(181.213.132.2)
+;; WHEN: Wed Feb 03 21:52:59 -03 2021
+;; MSG SIZE  rcvd: 103
+

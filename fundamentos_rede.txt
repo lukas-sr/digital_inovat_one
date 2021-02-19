@@ -1,0 +1,34 @@
+===>>> REDES <<<===
+Compostas por nós, como o computador, o celular, o dispositivo IoT
+
+Rede WAN = Wide Area Network ou World Area Network, rede geograficamente distribuída
+
+Rede MAN = Metropolitan Area Network, rede metropolitana que interligam varias redes locais
+
+Rede LAN = Local Area Network, rede local, de uma forma geral de um único prédio/casa
+
+>>> Protocolos
+
+Linguagem utilizada pelos dispositivos em uma rede de modo que eles consigam se entender; Existem vários, Bluetooth, Wifi, Streaming
+Principais: 
+IP - Protocolo de internet
+ICMP - Internet Control Message Protocol
+DNS - Domain Name Server
+
+Interface de rede o linux está localizada no diretorio /dev e a maioria é criada dinamicamente pelos softwares quando são requisitadas.
+
+Exemplo: Eth0 - placa de rede ethernet - Cabeada
+
+===>>> COMANDOS <<<===
+ifconfig: encontrar ip da máquina
+hostname: nome do computador local
+hostname -I : ip do computador local
+hostname -i : endereço de loopback do computador local (host)
+who : mostra como estamos logados na rede
+whoami : nome do usuario que estou logado nessa rede
+ping www.google.com -w 4 : envia 4 pacotes p/ google
+dig www.google.com : todas as informações sobre o DNS (caminho de rede, nome para o IP), inclusive ip do google
+traceroute www.google.com : mostra a quantidade de dispositivos que se utiliza para chegar da maquina local para o servidor do google
+dig www.google.com +short: mostra somente o ip do google
+whois www.pudim.com.br :
+finger : mostra toda informação do usuario que esta logado no nosso host 
