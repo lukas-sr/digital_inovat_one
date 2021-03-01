@@ -1,1 +1,25 @@
+GUI Vs CLI
+
+Graphic User Interface e Comand Line Interface
+==========================================================================================================
+SHA1 -> Secure Hash Algorithm, conjunto de funções hash criptográficas projetadas pela NSA;
+	A encriptação gera conjunto de caracteres identificador de 40 dígitos; Único!
+	É uma forma curta de representar um arquivo também;
+	
+	Ex: echo "ola mundo" | openssl sha1
+		-> Cria conjunto de 40 caracteres para a string "ola mundo"
+	
+	Git utiliza esta encriptação para classificar se houve ou não mudanças nos arquivos;  
+==========================================================================================================
+Objetos internos do GIT
+	-> Blobs: echo "conteudo" | git hash-object --stdin ==> SHA1 da string com blob 9\0
+		  Arquivos ficam guardados dentro deste objeto chamado Blob; Contém meta-dados dentro dele
+		  Então objeto Blob tem tipo do objeto, tamanho da string
+
+	-> Trees: Armazenam blobs diferentes; Contem tambem meta-dados; Guardam os nomes dos arquivos
+		  Apontam para tanto blobs quanto para outras arvores
+
+	-> Commits: Objeto que junta todos os outros; É o que vai dar sentido para alteração que estou 
+		    fazendo dentro do arquivo. Uma unica modificação em um arquivo já muda o SHA1 do 
+	   	    Git;
 
