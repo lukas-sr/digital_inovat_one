@@ -23,3 +23,7 @@ Objetos internos do GIT
 		    fazendo dentro do arquivo. Uma unica modificação em um arquivo já muda o SHA1 do 
 	   	    Git;
 
+===========================================================================================================
+	Tracked => Unmodified, Modified, Staged => Ciclo de arquivo entre esses 3 estágios
+	Untracked => Arq. acabou de ser criado ou que foi removido 
+	
